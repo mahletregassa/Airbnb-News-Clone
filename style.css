@@ -1,0 +1,452 @@
+body{
+    background-color: rgb(255, 244, 246);
+}
+.navbar-brand i {
+    color: red;
+    font-size: 30px;
+}
+ .navbar-brand{
+    font-size: 20px;
+    font-weight: 500px;
+    /*margin-left: 35px;*/
+    color: black; 
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: 50%/100% 100% no-repeat;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    padding: 5px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        margin-left: 300px;
+    }
+}
+
+ .dropdown-toggle {
+        color: black;
+    }
+ ul.navbar-nav{
+        margin-bottom: -5px;
+        
+    }
+.container-fluid{
+    max-width: 1760px;
+    /*width: 100%;*/
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    padding-right: 80px;
+    padding-left: 80px;
+}
+#ukraine h3 {
+    color:black;
+}
+    
+#main{
+ margin-top: 75px;
+
+}
+
+#joao img {
+    /*background-image: url(./images/eirik-skarstein-1mhFYEE7JTk-unsplash\ \(1\).jpg);*/
+    border-radius: 15px;
+    /*height: 495px;*/
+    /*width: 730px;*/
+    /*background-repeat: no-repeat;*/
+}
+
+
+#people{
+    padding-left: 0px;
+    background-color:rgb(255, 244, 246);
+}
+
+.button{
+       border-radius: 5px;
+       border-color:rgb(255, 0, 89);
+       background: rgb(255, 0, 89);
+       padding: 15px;
+       color: rgb(151, 220, 220);
+       margin-top: 20px;
+  
+    }
+
+.article a h5{
+        color: black;
+        font-family: Cereal,sans-serif;
+        /*margin-left: 130px;*/
+    }
+.article small {
+    color: black;
+    font-family: Cereal,sans-serif;
+    /*margin-left: 130px;*/
+
+}
+small#s{
+    margin-left: 0px;
+}
+
+
+#main{
+    margin-bottom: 75px;    
+    position: relative; 
+    }
+
+#left,#middle{
+    background-color: rgb(255, 244, 246);
+    padding-top: 15px;  
+}
+#middle{
+    position: relative;
+}
+
+@media only screen and (min-width:375px) 
+and (max-width:992px){
+    #left,#middle{
+        display: block;
+      }
+}
+    
+.latest{
+    margin-bottom: 20px;
+
+}
+
+.aspect-ratio-box-square {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:  100%;
+    border-radius: 10px;
+}
+
+.wine{
+    background-image: url(./images/kym-ellis-aF1NPSnDQLw-unsplash\ \(1\).jpg);
+}
+
+
+.translation{
+    background-image: url(./images/julia-solonina-UAd_yYS3Q2s-unsplash\ \(1\).jpg);   
+}
+
+.obama{
+    background-image: url(./images/sincerely-media-EtyBBUByPSQ-unsplash\ \(1\).jpg);
+}
+
+.eight{
+    background-image: url(./images/daphne-be-frenchie-5qI4cDVXGP0-unsplash\ \(1\).jpg);
+}
+
+#follow{
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 20px;
+}
+@media  (max-width:992px){
+    #follow{
+      display: block;
+      margin-top: auto;
+    }
+  }
+#icons{
+ display: flex;
+ line-height: 25px;
+ padding-left: 25px;
+ justify-content: space-between;
+ padding-bottom: 20px;
+}
+@media  (max-width:992px){
+    #icons{
+     display: block;
+    }
+}
+.twit{
+        background-image: url(./images/icons8-twitter-24\ \(1\).png);
+        background-repeat: no-repeat;
+      
+    }
+        
+.insta{
+        background-image: url(./images/icons8-instagram-old-24.png);
+        background-repeat: no-repeat; 
+        margin-left: 10px; 
+    }
+.linked{   
+        background-image: url(./images/icons8-linkedin-24.png);
+        background-repeat: no-repeat;
+     }
+.face{
+        background-image: url(./images/facebook-social-logo.jpg);
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+.get{
+    font: 16px cereal, sans-serif;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+.t a{
+    color: white;
+    padding-left: 20px;
+}
+.i a{
+    color:white;
+    padding-left: 30px;
+   
+}   
+@media  (max-width:992px){
+      .i a{
+            display: block;
+            margin-left:auto;
+          }
+    }
+
+.l a{
+    color:white;
+    padding-left: 20px;
+
+}
+.f a{
+    color:white;
+    padding-left: 20px;
+ 
+}
+.future h3{
+    margin-top: 20px;
+    /*margin-left: 50px  */
+}
+
+
+#future-of-travel{
+    position:relative;
+    padding-bottom: 80px;
+    /*margin-left: 80px;*/
+}
+#black-background{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*width: 100%;*/
+    height: 57.5%;
+    background-color: black;
+}
+
+@media  (max-width:992px){
+    #future,#wide{
+      flex-direction: flex;
+      
+    }
+}
+
+header{
+    margin-top: -40px;
+}
+
+#wide {
+    
+    /*overflow: auto;*/
+    flex-wrap: nowrap;
+    /*margin-left:-150px;*/
+}
+
+
+p #economic{
+    padding-left: 25px;
+}
+@media  (max-width:992px){
+.economic{
+        display: block;
+}
+}
+.aspect-ratio-box-landscape {
+    padding-top: calc(2.3/3 * 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.benjamin{
+    background-image:url(./images/benjamin-brunner-wntFSQtCB2c-unsplash\ \(2\).jpg) ;
+}
+.natali{
+    background-image:url(./images/natali-hordiiuk-RWStDYyO4AQ-unsplash\ \(1\)\ \(1\).jpg) ;
+}
+.darma{
+    background-image: url(./images/blake-wisz-TcgASSD5G04-unsplash\ \(2\)\ \(1\)\ \(1\).jpg);
+}
+.rawkim{
+    background-image: url(./images/patrick-perkins-3wylDrjxH-E-unsplash\ \(2\)\ \(3\).jpg) ;
+} 
+.andria{
+    background-image:url(./images/rawkkim-ncsgFZAkSyM-unsplash\ \(1\)\ \(1\).jpg) ;  
+}
+.pony{
+   background-image:url(./images/pony-8g0c_XgnFH0-unsplash\ \(1\)\ \(1\).jpg);
+}
+@media  (max-width:992px){
+    .benjamin{
+     display: block;
+    } 
+}
+@media  (max-width:992px){
+    .natali{
+     display: block;
+    } 
+}            
+
+@media  (max-width:992px){
+    .darma{
+     display: block;
+    } 
+}
+ 
+@media  (max-width:992px){
+    .rawkim{
+     display: block;
+    } 
+}
+@media  (max-width:992px){
+    .pony{
+     display: block;
+    } 
+}
+header .article-title{
+    padding-top: 2.5em;
+    color:white;
+}
+.black{
+    color:white;
+}
+.lists {
+     display:flex;
+     list-style: none;
+}
+
+.hard{
+    margin-right: 40px;
+    border-radius: 20px;
+}
+.aspect-ratio-box-rectangle{
+    padding-top: calc(2.3/3 * 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.one{
+    background-image: url(./images/andrea-davis-UylA1QgaSZw-unsplash\ \(1\).jpg);
+}
+.two{
+    background-image: url(./images/benjamin-brunner-wntFSQtCB2c-unsplash\ \(2\).jpg);
+}
+.three{
+    background-image: url(./images/blake-wisz-TcgASSD5G04-unsplash\ \(2\)\ \(1\)\ \(1\).jpg);
+}
+
+.four{
+    background-image: url(./images/joao-paulo-de-souza-oliveira-hdnNTfP6WbI-unsplash\ \(2\).jpg);
+}
+
+.five{
+    background-image: url(./images/darmau-VDCNRROhh2Q-unsplash\ \(1\).jpg);
+}
+.six{
+    background-image: url(./images/eirik-skarstein-1mhFYEE7JTk-unsplash\ \(1\).jpg);
+}
+.seven{
+    background-image: url(./images/natali-hordiiuk-RWStDYyO4AQ-unsplash\ \(1\)\ \(1\).jpg);
+}    
+.zero{
+    background-image: url(./images/mark-harpur-fpU02-MKu40-unsplash\ \(1\).jpg);
+}
+.nine{
+    background-image: url(./images/patrick-perkins-3wylDrjxH-E-unsplash\ \(2\)\ \(3\).jpg);
+ }
+.ten{
+    background-image: url(./images/pony-8g0c_XgnFH0-unsplash\ \(1\)\ \(1\).jpg);
+}
+.eleven{
+    background-image: url(./images/airbnb-gf7ed88945_640.png);
+}
+.twelve{
+    background-image: url(./images/mark-harpur-fpU02-MKu40-unsplash\ \(1\).jpg);
+}
+.all{
+   color: black;
+}
+
+#all{
+    display: block;
+    margin-bottom: 1.5em;
+}
+button{
+    border-radius: 10px;
+    padding: 5px 10px;
+    /*margin: 30px 30px;*/
+}
+
+#final a{
+    color: rgb(114, 114, 114);
+   
+}
+li {
+    list-style-type: none;
+    margin-right: -30px;
+    display: inline-flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#last-icon{
+    margin-bottom: 40px;
+    display: flex;
+    padding-bottom: 20px;
+    margin-top: -20px;
+    justify-content: flex-end;
+}
+
+
+#foot{
+   color:black;
+}
+.foot p{
+    color:darkgray;
+}
+.end h6{
+    color:black
+}
+.end li{
+    list-style-type: none;
+    display: block;
+    padding-bottom: 0.5em;
+}
+  
+.end{
+    margin-bottom: 25px;
+    margin-left: -35px;
+} 
+
+.classic{
+    padding-top: 48px;
+    border-top: 1px solid #ddd;
+    background-color: #f7f7f7;
+    margin-top: 1.5em;
+}
+#final{
+    white-space: 1em;
+    justify-content: space-between;
+}
